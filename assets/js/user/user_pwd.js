@@ -27,7 +27,7 @@ $(function() {
         }
         layui.layer.msg('更新密码成功！')
         // 重置表单
-        $('.layui-form')[0].reset()
+        $('.layui-form')[0].reset() //将表单元素转化为dom元素
       }
     })
   })
