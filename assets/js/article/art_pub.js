@@ -19,7 +19,7 @@ $(function() {
         var htmlStr = template('tpl-cate', res)
         $('[name=cate_id]').html(htmlStr)
         // 一定要记得调用 form.render() 方法
-        form.render()
+        form.render() //重新渲染表单的结构
       }
     })
   }

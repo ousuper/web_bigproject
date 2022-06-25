@@ -21,9 +21,9 @@ $(function() {
   $('#btnAddCate').on('click', function() {
     indexAdd = layer.open({
       type: 1,
-      area: ['500px', '250px'],
-      title: '添加文章分类',
-      content: $('#dialog-add').html()
+      area: ['500px', '250px'], //为弹出层定义长和宽
+      title: '添加文章分类',   //标题
+      content: $('#dialog-add').html()  
     })
   })
 
